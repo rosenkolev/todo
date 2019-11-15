@@ -1,0 +1,10 @@
+.view {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 55px);
+  width: 100%;
+}
+
+.main {
+  flex: 1;
+}

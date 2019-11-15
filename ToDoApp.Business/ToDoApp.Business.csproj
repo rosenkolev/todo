@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup Label="Projects and Files Reference">
+    <ProjectReference Include="..\ToDoApp.Data\ToDoApp.Data.csproj" />
+  </ItemGroup>
+</Project>

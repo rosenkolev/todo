@@ -1,0 +1,13 @@
+:host {
+    display: block;
+    height: 55px;
+}
+
+.navbar {
+  padding: 0 77px;
+  display: flex;
+  color: #4A4E52;
+  border: 1px solid #D7DADC;
+  box-shadow: 0 2px 4px 0 rgba(62,62,62,0.08);
+  line-height: 55px;
+}

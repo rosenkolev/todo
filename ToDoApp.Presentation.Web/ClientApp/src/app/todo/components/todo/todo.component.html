@@ -1,0 +1,14 @@
+<h1>Test</h1>
+<input type="text"
+       class="input"
+       [(ngModel)]="value"
+       (keyup.enter)="add()" />
+<ul class="list">
+  <li class="item"
+      *ngFor="let item of items$ | async">
+    <label>
+      <input type="checkbox" (click)="check(item)" />
+      <span>&nbsp;{{item.name}}</span>
+    </label>
+  </li>
+</ul>

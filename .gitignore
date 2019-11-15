@@ -1,0 +1,10 @@
+jscpd-report.*
+package-lock.json
+coverage.opencover.xml
+node_modules/
+obj/
+bin/
+/webapps
+/tools/dotnet-script.exe
+/tools/.store
+/ToDoApp.Tests/TestResults/

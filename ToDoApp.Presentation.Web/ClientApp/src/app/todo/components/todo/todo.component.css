@@ -1,0 +1,25 @@
+:host {
+  display: block;
+  margin: 30px 30%;
+}
+
+.input {
+  padding: 4px 6px;
+  border-radius: 4px;
+  outline: 0;
+  border: 1px solid #CCC;
+  font-size: 15px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  margin-top: 10px;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
